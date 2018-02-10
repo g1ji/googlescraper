@@ -1,0 +1,156 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color:#f4f4f2 !important;
+}
+a {
+    color: #00B7FF;
+}
+.node {
+    cursor: pointer;
+}
+.node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+.node text {
+    font: 10px sans-serif;
+}
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1.5px;
+}
+.add-on .input-group-btn > .btn {
+  border-left-width:0;left:-2px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+/* stop the glowing blue shadow */
+.add-on .form-control:focus {
+   box-shadow:none;
+   -webkit-box-shadow:none; 
+   border-color:#cccccc; 
+}
+.form-control{width:20%}
+.navbar-nav > li > a {
+  border-right: 1px solid #ddd;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.navbar-nav:last-child{ border-right:0}
+.col-sm-6{
+    /*border: 1px solid #555;*/
+    margin-top: 10px;
+
+}
+span{
+    font-size: 17px;
+    color: red;
+}
+.col-sm-4{
+    /*border: 3px solid #ddd;*/
+    min-height: 200px !important;
+    background-image: center;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+h3{
+    color: #888 !important;
+}
+
+#loading {
+    height: 100%;
+    left: 0;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 253px;
+    margin-top: 92px;
+}
+.bokeh {
+    border: 0.01em solid rgba(150, 150, 150, 0.1);
+    border-radius: 50%;
+    font-size: 100px;
+    height: 1em;
+    list-style: outside none none;
+    margin: 0 auto;
+    position: relative;
+    top: 35%;
+    width: 1em;
+    z-index: 2147483647;
+}
+/*.bokeh li {
+    border-radius: 50%;
+    height: 0.2em;
+    position: absolute;
+    width: 0.2em;
+}
+.bokeh li:nth-child(1) {
+    animation: 1.13s linear 0s normal none infinite running rota, 3.67s ease-in-out 0s alternate none infinite running opa;
+    background: #00c176 none repeat scroll 0 0;
+    left: 50%;
+    margin: 0 0 0 -0.1em;
+    top: 0;
+    transform-origin: 50% 250% 0;
+}
+.bokeh li:nth-child(2) {
+    animation: 1.86s linear 0s normal none infinite running rota, 4.29s ease-in-out 0s alternate none infinite running opa;
+    background: #ff003c none repeat scroll 0 0;
+    margin: -0.1em 0 0;
+    right: 0;
+    top: 50%;
+    transform-origin: -150% 50% 0;
+    }*/
+/*.bokeh li:nth-child(3) {
+    animation: 1.45s linear 0s normal none infinite running rota, 5.12s ease-in-out 0s alternate none infinite running opa;
+    background: #fabe28 none repeat scroll 0 0;
+    bottom: 0;
+    left: 50%;
+    margin: 0 0 0 -0.1em;
+    transform-origin: 50% -150% 0;
+    }*/
+    .bokeh li:nth-child(4) {
+        background: #88c100 none repeat scroll 0 0;
+        margin: -0.1em 0 0;
+        top: 50%;
+        transform-origin: 250% 50% 0;
+    }
+.col-sm-6{
+    border: 1px solid #dddddd;
+    margin-top: 10px;
+
+}
+
+    .col-sm-4 {
+        width: 33.33333333%;
+        border-radius: 10px;
+        border-width: 1px;
+        background-color: #56ff002b
+    }
+
+
+
+    #loading  img{
+        position: relative;
+        left: -95px;
+        width: 204px;
+        top: -48px;
+    }
+    #loading  h3{
+     font-size: 24px;
+     left: -41px;
+     top: -50px;
+     position: relative;
+ }
+
+ body > div.row.ng-scope > div:nth-child(1) > div{
+    background: #ff86864d;
+ }
+ body > div.row.ng-scope > div:nth-child(2) > div{
+    background: #4dd0dd26;
+ }
